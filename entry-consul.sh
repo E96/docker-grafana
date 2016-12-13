@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # join listed consul hosts
-if [ -z $CONSUL_JOIN ]; then
+if [ -z "$CONSUL_JOIN" ]; then
     echo "CONSUL_JOIN is empty"
     exit 1
 fi
